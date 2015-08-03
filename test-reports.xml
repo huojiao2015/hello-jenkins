@@ -1,0 +1,10 @@
+<testsuite name="Mocha Tests" tests="1" failures="1" errors="1" skipped="0" timestamp="Mon, 03 Aug 2015 03:38:28 GMT" time="0.015">
+<testcase classname="GET /" name="respond with hello jenkins" time="0.015" message="expected 'hello jenkins!' response body, got 'hello jenkins!hello Jo'"><failure classname="GET /" name="respond with hello jenkins" time="0.015" message="expected 'hello jenkins!' response body, got 'hello jenkins!hello Jo'"><![CDATA[Error: expected 'hello jenkins!' response body, got 'hello jenkins!hello Jo'
+    at error (C:\workspace\GitSpace\hello-jenkins\node_modules\supertest\lib\test.js:235:13)
+    at Test.assert (C:\workspace\GitSpace\hello-jenkins\node_modules\supertest\lib\test.js:180:21)
+    at Server.assert (C:\workspace\GitSpace\hello-jenkins\node_modules\supertest\lib\test.js:132:12)
+    at Server.g (events.js:199:16)
+    at Server.emit (events.js:104:17)
+    at net.js:1419:10
+    at process._tickCallback (node.js:355:11)]]></failure></testcase>
+</testsuite>
